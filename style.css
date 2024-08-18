@@ -20,3 +20,7 @@ h3 {
     text-transform: uppercase;
     /*text-transform: lowercase;*/
 }
+
+#neutro {
+    display: none;
+}

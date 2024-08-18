@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="/website/css/uicons-outline-rounded.css"rel="stylesheet">
+    <link rel="stylesheet" href="js/meuscript.js">
+    <title>Teste 01</title>
+</head>
+<body>
+    
+
+
+<button type="button" onclick="myFunction"><i class="fi fi-br-menu-burger">HAMBURGUER</i></button>
+    <div id="neutro">
+        
+        <h1 id="inicio">Usando o metodo getelement para alterar o conteudo de uma tag</h1>
+        <button type="button" onclick="myFunction()">APERTE</button>
+        <p id="demo">MEU PRIMEIRO JS</p>
+        
+        
+        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello, js'">CLICK ME</button> <!--Alterando conteudo interno-->
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Outro butão feito com sucesso"'>ENVIAR</button><!--Alterando conteudo interno-->
+        <hr>
+        
+        <!--Mudando o estilo de uma tag-->
+        
+        <p id="color" style="background-color: black; color: white;">ALGUM TEXTO QUALQUER</p>
+        <button type="button" onclick='document.getElementById("color").style.fontSize = "50px";'>ALTERANDO TAMANHO</button><!--ALTERANDO O TAMANHO DA FONTE-->
+        <button type="button" onclick='document.getElementById("color").style.display = "none";'>APGANDO</button><!--ALTERANDO O DISPLAY DE UM ELEMENTO-->
+        <button type="button" onclick='document.getElementById("color").style.display = "block";'>VISUALISANDO</button><!--ALTERANDO O DISPLAY DE UM ELEMENTO-->
+        
+        <h1>Neste exemplo o codigo encontro um elemento com id demo e altera a informação contida no mesmo</h1>
+        <hr>
+        
+        <p id="conteudo"></p>
+    </div>
+
+<script>
+    document.getElementById("conteudo").innerHTML = "Meu primeiro comando";
+</script>
+</body>
+
+</html>
