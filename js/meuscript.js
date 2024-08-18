@@ -1,4 +1,6 @@
 
+function myFunction(){
 
+document.getElementById("neutro").style.display = "block";
 
-document.getElementById("demo").innerHTML = "OLA, MUNDO";
+}
