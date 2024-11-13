@@ -7,7 +7,10 @@ const imprimirResultado = function(nota){
         console.log("Quadro de Honra")
     } else if(nota.entre(7, 8.99)) {
         console.log("Aprovado")
-    } else if(nota.entre(6, 6.99)) {
+    } else if(nota.entre(0, 6.99)) {
         console.log("Reprovado")
     }
 }
+
+imprimirResultado(6)
+imprimirResultado(9)
