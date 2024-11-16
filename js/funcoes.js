@@ -6,3 +6,5 @@ function calc(a, b) {
 }
 
 console.log(calc)
+
+
