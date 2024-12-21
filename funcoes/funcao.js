@@ -24,3 +24,15 @@ console.log(obj.falar())
 function run(fun) {
     fun()
 }
+
+run( function(){ console.log('Executando...')})
+
+//Uma função pode retornar/conter uma função
+
+function soma(a, b) { // Função que retorna outra função
+   return function(c){
+        console.log(a + b + c)
+    }
+}
+
+soma(5, 8)(4)
